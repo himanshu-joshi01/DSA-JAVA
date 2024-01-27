@@ -12,6 +12,7 @@ public class MaxOf3Num {
         b=sc.nextInt();
         System.out.println("Enter the third number:");
         c=sc.nextInt();
+        sc.close();
             max = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
         System.out.println("The maximum value is "+max);
 
