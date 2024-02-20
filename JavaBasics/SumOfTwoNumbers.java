@@ -1,4 +1,4 @@
-package JavaBasics;
+
 
 import java.util.Scanner;  
 public class SumOfTwoNumbers  

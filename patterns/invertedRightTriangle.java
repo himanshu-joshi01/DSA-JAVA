@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class java{
+public class invertedRightTriangle{
     public static void main(String args[]){
         System.out.println("enter no. of line in triangle");
         Scanner sc = new Scanner(System.in);

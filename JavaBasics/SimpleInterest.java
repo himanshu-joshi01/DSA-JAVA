@@ -1,4 +1,4 @@
-package JavaBasics;
+
 import java.util.*;
 public class SimpleInterest{
     public static void main(String args[]){
