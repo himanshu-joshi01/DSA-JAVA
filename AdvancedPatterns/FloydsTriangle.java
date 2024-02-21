@@ -7,6 +7,7 @@ public class FloydsTriangle {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter No. of lines of triangle:");
         int n = sc.nextInt();
+        sc.close();
         int count = 1;
 
         for (int i = 1; i <= n; i++) {
