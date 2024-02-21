@@ -1,5 +1,3 @@
-package AdvancedPatterns;
-
 import java.util.*;
 
 public class OneZeroTriangle {

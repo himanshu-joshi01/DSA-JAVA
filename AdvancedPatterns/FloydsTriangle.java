@@ -1,4 +1,3 @@
-package AdvancedPatterns;
 
 import java.util.*;
 

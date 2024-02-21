@@ -1,5 +1,3 @@
-package AdvancedPatterns;
-
 import java.util.*;
 
 public class MirroredRightTriangle {
@@ -7,6 +5,7 @@ public class MirroredRightTriangle {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the no. of the lines of triangle:");
         int n = sc.nextInt();
+        sc.close();
 
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - i; j++) {
