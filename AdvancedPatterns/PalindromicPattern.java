@@ -19,6 +19,8 @@ public class PalindromicPattern {
                 System.out.print(l);
             }
             System.out.println();
+            System.out.println();
+
         }
 
     }
