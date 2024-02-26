@@ -8,7 +8,6 @@ public class LinearSearch {
         }
         return -1;   // Return -1 if the element is not present in the array
     }
-
     public static void main (String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of elements in array:");
