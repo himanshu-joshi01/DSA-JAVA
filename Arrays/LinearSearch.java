@@ -21,7 +21,7 @@ public class LinearSearch {
         System.out.print("Enter a search element : ");
         int key = sc.nextInt() ;
         sc.close(); 
-
+        
         int index=linearSearch(arr,key);
         if(index==-1)
             System.out.println("Element not found.");   

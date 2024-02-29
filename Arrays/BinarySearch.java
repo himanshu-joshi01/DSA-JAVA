@@ -1,4 +1,5 @@
-
+import java.util.Scanner;
+import java.util.Arrays;
 public class BinarySearch{  
     public static void binarySearch(int arr[], int first, int last, int key){  
       int mid = (first + last)/2;  
@@ -17,10 +18,27 @@ public class BinarySearch{
          System.out.println("Element is not found!");  
       }  
     }  
-    public static void main(String args[]){  
-           int arr[] = {10,20,30,40,50};  
-           int key = 30;  
-           int last=arr.length-1;  
-           binarySearch(arr,0,last,key);     
+    public static void main(String args[]){ 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of elements in array:");
+        int n = sc.nextInt();
+    
+        int[] arr = new int[n]; 
+            System.out.println("enter elements of array ") ;
+            for(int i=0;i<n;i++){
+                arr[i]=sc.nextInt();
+            }     
+            Arrays.sort(arr);
+            System.out.println(" Sorted Array ") ;
+            for(int i=0;i<n;i++){
+             System.out.print(arr[i]+" ") ;
+            }   System.out.println("") ;  
+            
+        System.out.print("Enter a search element : ");
+        int key = sc.nextInt() ;
+        sc.close(); 
+           int last=arr.length-1; 
+           int first=0 ;
+           binarySearch(arr,first,last,key);     
     }  
    }  
