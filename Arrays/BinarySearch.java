@@ -24,12 +24,12 @@ public class BinarySearch{
         int n = sc.nextInt();
     
         int[] arr = new int[n]; 
-            System.out.println("enter elements of array ") ;
+            System.out.println("Enter elements of array ") ;
             for(int i=0;i<n;i++){
                 arr[i]=sc.nextInt();
             }     
             Arrays.sort(arr);
-            System.out.println(" Sorted Array ") ;
+            System.out.println("Sorted Array:") ;
             for(int i=0;i<n;i++){
              System.out.print(arr[i]+" ") ;
             }   System.out.println("") ;  
