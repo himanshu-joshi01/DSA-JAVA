@@ -23,6 +23,7 @@ public class ReverseOfArray {
                 arr[i]=sc.nextInt();
             }    
             Reverse(arr);
+            sc.close();
             System.out.print("Reversed Array is : ");
             for(int i=0;i<n;i++){
                 System.out.print(arr[i] + " ");
