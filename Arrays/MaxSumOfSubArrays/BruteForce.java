@@ -2,20 +2,17 @@ package MaxSumOfSubArrays;
 import java.util.*;
 public class BruteForce {
     public static void subArrays(int arr[]) {
-        int maxSum= Integer.MIN_VALUE;
         for(int i=0 ; i<arr.length ; i++){
             for(int j=i ; j<arr.length ; j++){
-                int currSum=0;
+                System.out.print("[ ");
                 for(int k=i;k<=j;k++){
-                 currSum+=arr[k];
+                System.out.print(arr[k]+ " ");
             }
-           if(maxSum < currSum) {
-            maxSum=currSum;
-           }
+            System.out.print("]");
+            System.out.println();
         }
 
     }
-    System.out.println("max sum  of any subarray is: "+maxSum);
 }
 
     public static void main(String args[]) {
