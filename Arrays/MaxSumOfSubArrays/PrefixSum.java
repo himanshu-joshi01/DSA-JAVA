@@ -19,11 +19,15 @@ public static void MaxSubArraySum(int arr[]){
         int start=i;
         for(int j=i;j<n;j++){
             int end=j;
-            currSum=start==0?prefix[end]:prefix 
+            currSum=start==0?prefix[end]:prefix[end]-prefix[start-1];
+            if(currSum>maxSum)
+            {
+                maxSum=currSum;
+            }
         }
     }
     
-    // Calculate the prefix sum array
+    System.out.println("max  sum of subarray is : "+maxSum);
     
 
 }   
@@ -37,6 +41,7 @@ public static void main(String args[]){
     for(int i=0 ; i<n ; i++){
         arr[i]=sc.nextInt();
     }
+    sc.close();
     MaxSubArraySum(arr);
 }
 }
