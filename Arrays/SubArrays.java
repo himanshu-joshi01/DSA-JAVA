@@ -3,11 +3,15 @@ import java.util.*;
 public class SubArrays {
     public static void subArrays(int arr[]) {
         for(int i=0 ; i<arr.length ; i++){
-            System.out.print("["+arr[i]+"]");
-            for(int j=i+1 ; j<arr.length ; j++){
-                System.out.print("["+arr[i]+","+arr[j]);
+            for(int j=i ; j<arr.length ; j++){
+                System.out.print("[");
+                for(int k=i; k<=j;k++){
+                System.out.print(arr[k]+",");
+                }
+                System.out.print("]");
+                System.out.println();
             }
-            System.out.println();
+        
         }
 
     }
