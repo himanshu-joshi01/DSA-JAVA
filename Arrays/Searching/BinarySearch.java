@@ -1,4 +1,6 @@
+
 import java.util.Scanner;
+
 import java.util.Arrays;
 
 public class BinarySearch {
@@ -16,7 +18,7 @@ public class BinarySearch {
          mid = (first + last)/2;  
       }  
       if ( first > last ){  
-         System.out.println("Element is not found!");  J
+         System.out.println("Element is not found!"); 
       }  
     }
 
